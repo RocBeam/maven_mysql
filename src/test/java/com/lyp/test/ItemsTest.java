@@ -17,7 +17,6 @@ public class ItemsTest{
         List<User> list =  itemsDao.findAll();
         for(User user : list){
             System.out.println(user.getUsername());
-            System.out.println("hello");
         }
     }
 }
